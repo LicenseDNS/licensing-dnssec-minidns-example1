@@ -47,7 +47,7 @@ public class Main {
             }
             Set<TXT> answers = result.getAnswers();
             for (TXT txt : answers) {
-                // TXT records received check "sucess" line, and use other values as you like.
+                // TXT records received check "result" line, and use other values as you like.
                 System.out.println(txt.getText());
             }
         } catch (Exception ex) {
